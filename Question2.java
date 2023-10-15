@@ -7,9 +7,11 @@ import java.util.Random;
  * Student #4876411
  * @version 1.0 (Oct 15, 2023)
  */
-public class Sort {
+public class Question2 {
+    
     private int[] sortedArr; // global variable to be changed in constructor
-    public Sort(int arr[]) { // parameter taken from the main class of the randomly generated array
+    
+    public Question2(int arr[]) { // parameter taken from the main class of the randomly generated array
         sortedArr = sorting(arr); //setting the global array variable to the method call
         printSorted(); // printing the array
     }
@@ -54,6 +56,6 @@ public class Sort {
             System.out.print(num + " "); // printing the values
         }
         System.out.println(); // newline
-        Sort x = new Sort(randomArray); // setting the array to the previously generated one
+        Question2 x = new Question2(randomArray); // setting the array to the previously generated one
     }
 }
